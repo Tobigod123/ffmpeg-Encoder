@@ -35,8 +35,8 @@ async def start(event):
             buttons=[
                 [Button.inline("📮 HELP 📮", data="ihelp")],
                 [
-                    Button.url("⚡ CHANNEL ⚡", url="t.me/FuZionX"),
-                    Button.url("🧑‍💻 DEV 🧑‍💻", url="t.me/NoHelloMe"),
+                    Button.url("⚡ CHANNEL ⚡", url="https://t.me/AnimeZenith_ongoing"),
+                    Button.url("🧑‍💻 DEV 🧑‍💻", url="@NINJA_OBITO_SAI"),
                 ],
             ],
         )
@@ -53,8 +53,8 @@ async def beck(event):
             buttons=[
                 [Button.inline("📮 HELP 📮", data="ihelp")],
                 [
-                    Button.url("⚡ CHANNEL ⚡", url="t.me/FuZionX"),
-                    Button.url("🧑‍💻 DEV 🧑‍💻", url="t.me/NoHelloMe"),
+                    Button.url("⚡ CHANNEL ⚡", url="https://t.me/AnimeZenith_ongoing"),
+                    Button.url("🧑‍💻 DEV 🧑‍💻", url="@NINJA_OBITO_SAI"),
                 ],
             ],
         )
