@@ -1,4 +1,4 @@
-#    This file is part of the Compressor distribution.
+#    This file is part of the Comp byressor distribution.
 #    Copyright (c) 2021 Danish_00
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -17,14 +17,14 @@ from decouple import config
 
 APP_ID = config("APP_ID", cast=int, default=3092338)
 API_HASH = config("API_HASH", default="e81747974ab64a3617807b06bec1ac0a")
-BOT_TOKEN = config("BOT_TOKEN", default="5693275028:AAGTKXavukS-pw-LZ_er-t7ploLzfekNoIU")
-DEV = 1322549723
+BOT_TOKEN = config("BOT_TOKEN", default="6979551576:AAFIV4rCqxrODoAfhd6SUxCPJ2LAVPI-Tr0")
+DEV = 6748415360
 CREATOR = config(
     "CREATOR",
-    default=1242011540,
+    default=6748415360,
 )
-SUDO_USERS = config("SUDO_USERS", default=1789263079)
-AUTH_CHATS = config("AUTH_CHATS", default=-1001508663868)
+SUDO_USERS = config("SUDO_USERS", default=6748415360)
+AUTH_CHATS = config("AUTH_CHATS", default=-1002110075889)
 FFMPEG = []
 try:
     ffmpeg = config("FFMPEG",)
@@ -33,7 +33,7 @@ try:
         raise KeyError
 except KeyError:
     LOGS.warning("FFMPEG Externally Not Provided")
-THUMB = config("THUMBNAIL", default='https://te.legra.ph/file/252b1c83d89375bb1de96.jpg')
+THUMB = config("THUMBNAIL", default='https://telegra.ph/file/6c477e9ac15d25f09ff99.jpg')
 PING_CMD = config(
     "PING_CMD",
     default="ping",
